@@ -86,12 +86,12 @@ h1.title {
 .text-container {
     margin-right: auto;
     margin-left: auto;
+    padding: 3% 6%;  
     box-sizing: border-box;
     position: relative;
     border: 2px solid rgb(60, 60, 60);
-    width: 90%;
+    width: 60%;
     height: auto;
-    padding: 15px 25px;  
     font-family: 'Lato', sans-serif;
     font-size: 1vw;  
     color: rgb(60, 60, 60);
@@ -251,23 +251,27 @@ footer p {
     }
 
     .about {
-        height: 400px;
+        height: 470px;
     }
 
     .services {
-        height: 350px;
+        height: 400px;
     }
 
     .what-we-do {
         background-color: white;
-        height: 1250px;}
+        height: 1300px;}
     
+    img.icon {
+            margin: 30px auto;
+    }
+
     .our-works {
         height: 750px;
     }
 
     .contact-us {
-        height: 250px;
+        height: 270px;
     }
 
     footer {
@@ -294,4 +298,218 @@ footer p {
         margin-top: 20px;
         width: 210px;
         height: 29px;}
+}
+
+@media screen and (min-width: 481px)
+
+{
+    h1.title {
+        width: 50%;
+        font-size: 6vw;
+    }
+
+    .subtitle {
+        width: 50%;
+        font-size: 3vw;
+        line-height: 1.5;
+    }
+
+    .text-container {
+        top: -29px;
+        font-size: 2.5vw;
+        padding: 15px 25px;  
+    }
+
+    h2.text {
+        font-size: 4vw;
+    }
+
+    img.icon {
+            margin: 30px auto;
+    }
+
+    .about {
+        height: 450px;
+    }
+
+    .services {
+        height: 400px;
+    }
+
+    .what-we-do {
+        background-color: white;
+        height: 1400px;}
+    
+    .our-works {
+        height: 600px;
+    }
+
+    .contact-us {
+        height: 300px;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+    button {
+        margin-top: 20px;
+        width: 210px;
+        height: 29px;}
+
+}
+
+@media screen and (min-width: 640px) {
+    h1.title {
+        width: 50%;
+        font-size: 5vw;
+    }
+
+    .subtitle {
+        width: 50%;
+        font-size: 2vw;
+        line-height: 1.5;
+    }
+
+    .text-container {
+        font-size: 2vw;
+    }
+
+    h2.text {
+        top: -37px;
+        font-size: 4vw;
+    }
+
+    .about {
+        height: 400px;
+    }
+
+    .services {
+        height: 400px;
+    }
+
+    .what-we-do {
+        background-color: white;
+        height: 1400px;}
+
+    img.icon {
+            margin: 30px auto;
+    }
+
+    .our-works {
+        height: 600px;
+    }
+
+    .contact-us {
+        height: 300px;
+    }
+    button {
+        margin-top: 20px;
+        width: 210px;
+        height: 29px;}
+}
+
+@media screen and (min-width: 800px) {
+    h1.title {
+        margin-top: 6%;
+        font-size: 4vw;
+        line-height: 1.2;  
+    }
+    
+    .subtitle {
+        width: 35%;
+        font-size: 1vw;
+    }
+    
+
+
+
+
+
+    .image-container {
+        padding-top: 9%;
+        padding-bottom: 4%;
+    }
+    
+    .scroll-container {
+        margin-top: 12%;
+        padding-bottom: 5%;
+    }
+    
+    .about {
+        height: 630px;
+    }
+    
+    .services {
+        height: 488px;
+    }
+    
+    .what-we-do {
+        height: 1400px;
+    }
+    
+    .contact-us {
+        height: 400px;
+    }
+    
+    .text-container {
+        font-size: 16px;  
+        margin-right: auto;
+        margin-left: auto;
+        padding: 3% 10%;  
+        width: 60%;
+        height: auto;
+        line-height: 1.5;  
+    }
+    
+    h2.text {
+        top: -46px;
+        width: 420px;
+        font-size: 34px;
+        line-height: 0;
+        letter-spacing: 3px;
+    }
+    
+    img.icon {
+        margin: 30px;
+    }
+    
+    ul {
+        padding: 0px;
+        height: 480px;
+        font-size: 0;
+    }
+    
+    .our-works li {
+        height: 50%;
+        margin: 0;
+        padding-top: 160px;
+        padding-left: 38px;
+        font-size: 2.2vw;
+        letter-spacing: 3px;
+    }
+
+    .topworks, .market, .worktop, .kyiv {
+        width: 30%;
+    }
+    
+    .joint, .lable {
+        width: 40%;
+    }
+
+    button {
+        margin-top: 46px;
+        width: 420px;
+        height: 58px;
+        font-size: 1vw;
+    }
+    
+    footer {
+        height: 144px;
+        font-size: 1vw;
+    }
+    
+    footer p {
+        margin-left: 46px;
+    }
 }
